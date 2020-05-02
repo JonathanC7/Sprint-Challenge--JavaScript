@@ -1,0 +1,17 @@
+Describe the biggest difference between .forEach & .map.
+    .forEach doesn't make an array out of the returns of the function impemented in it.
+
+What is the difference between a function and a method?
+    Method is just a bit more complicated, in that it's a function value for a property.
+
+What is closure?
+    Anything that defines a particular section of code. Everything in a specific section of code's structure and anything refrencing it.
+
+Describe the four rules of the 'this' keyword.
+    1. This before a period is usually refering to the function parenting it.
+    2. This can also call an object going to be made by a constructor. 
+    3. This can reference a window when called alone.
+    4. This can be called expliclitly in some cases such as .apply() and .call().
+
+Why do we need super() in an extended class?
+    We need super because it makes it easier to transfer the main classes methods, keys and values. You won't have to re-type the same code again and again and can save lots of time.
